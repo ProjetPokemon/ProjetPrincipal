@@ -85,7 +85,7 @@
 
 		public static function ajouterCarte($nomCarte = null,$illustrationDevantCarte = null, $numeroCarte = null, $pvCarte = null, $qualiteCarte = null, $descriptionCarte = null, $estReverseCarte = null, $coteCarte = null, $prixVenteCarte = null, $fk_idCatalogue = null, $fk_idExtension = null, $dateAjoutCarte = null, $disponibiliteCarte = null, $fk_idType = null, $rareteCarte = null, $illustrationDosCarte = null, $quantiteCarte = null){
 
-			$idCarte = Carte::generateId($fk_idExtension, $numeroCarte, $estReverseCarte);
+			$idCarte = ModeleCarte::generateId($fk_idExtension, $numeroCarte, $estReverseCarte);
 
 			$existeCarte = ConnexionBDD::instanceBDD()->prepare('SELECT nomCarte 
 																FROM Carte
