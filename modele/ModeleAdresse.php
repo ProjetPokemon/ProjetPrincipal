@@ -1,6 +1,6 @@
 <?php
 
-class ModeleBloc{
+class ModeleAdresse{
 
 	/* ELEMENTS BDD */
 	private $idAdresse;
