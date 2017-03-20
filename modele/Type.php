@@ -1,6 +1,6 @@
 <?php
 
-class Type{
+class ModeleType{
 	
     /* ELEMENTS BDD */
     	private $idType;
