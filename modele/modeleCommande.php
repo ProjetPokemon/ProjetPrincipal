@@ -1,6 +1,6 @@
 <?php
 
-class ModeleBloc{
+class ModeleCommande{
 
 	/* ELEMENTS BDD */
 	private $idCommande;
